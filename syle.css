@@ -1,0 +1,90 @@
+:root {
+  --color-primary: #0f4c81; /* en-tête, bouton, focus */
+  --color-bg: #f5f7fa; /* fond de la page */
+  --color-surface: #ffffff; /* cartes, formulaire, champs */
+  --color-text: #1a2433; /* texte principal */
+  --color-muted: #5b6576; /* texte secondaire */
+  --color-border: #d9e0e8; /* bordures */
+  --color-error-bg: #fdecec; /* fond du message d'erreur (bonus) */
+  --color-error-text: #b42318; /* texte du message d'erreur (bonus) */
+
+  /* Police de la maquette : Inter (Google Fonts), ou une police système */
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+header{
+  
+  background-color: #0f4c81;
+  padding: 4px;
+
+}
+header p{
+  font-size: 25px;
+  color:white;
+  padding-left: 30px;
+}
+.container{
+  
+   padding-left: 30px;
+  
+}
+.filter{
+ 
+  
+ margin: 10px;
+ border-radius: 20px;
+ padding: 15px;
+ border: 1px solid #5b6576;
+
+}
+.filter select{
+   width: 30%;
+  font-size: 15px;
+  
+}
+.filter input{
+  width: 30%;
+  font-size: 15px;
+}
+.filter button {
+  width: 20%;
+  background-color: #0f4c81;
+  color: white;
+  font-size: 15px;
+}
+.buttons{
+display: flex;
+gap: 20px;
+}
+.title{
+  display: flex;
+  gap: 400px;
+}
+.carte{
+ border: 1px solid black;
+}
+
+#countries{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+.carte{
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  
+}
+.parag{
+  display: flex;
+  gap: 30px;
+}
+.pupulation{
+  display: flex;
+  gap: 30px;
+}
